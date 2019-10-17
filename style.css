@@ -1,0 +1,53 @@
+:root {
+    --redColor: red;
+    --yellowColor: yellow;
+    --blackColor:black;
+    --whiteColor:white;
+    --h-family-font:Arial;
+  }
+  html, body { height: 100%; margin: 0;    padding: 0; }
+.coc-background-red, .coc-hover-red:hover{color:#fff!important;background-color:var(--redColor)!important}
+.coc-background-yellow, .coc-hover-yellow:hover{color:rgb(0, 0, 0)!important;background-color:var(--yellowColor)!important}
+.coc-background-black, .coc-hover-black:hover{color:#fff!important;background-color:var(--blackColor)!important}
+.coc-background-white, .coc-hover-white:hover{color:var(--blackColor)!important;background-color:var(--whiteColor)!important}
+
+
+.coc-zoom,.coc-zoom-hover:hover{transition: transform .2s;}
+.coc-zoom-hover.small:hover{transform: scale(1.2);}
+.coc-zoom-hover.mid:hover{transform: scale(1.5);}
+.coc-zoom-hover.large:hover{transform: scale(2);}
+.coc-zoom-hover.Xlarge:hover{transform: scale(4);}
+
+
+
+h1{font-size:36px;font-family: var(--h-family-font)}
+h2{font-size:30px;font-family: var(--h-family-font)}
+h3{font-size:24px;font-family: var(--h-family-font)}
+h4{font-size:20px;font-family: var(--h-family-font)}
+h5{font-size:18px;font-family: var(--h-family-font)}
+h6{font-size:16px;font-family: var(--h-family-font)}
+
+.coc-round-small{border-radius:2px}
+.coc-round-medium{border-radius:4px}
+.coc-round-large{border-radius:8px}
+.coc-round-xlarge{border-radius:16px}
+.coc-round-xxlarge{border-radius:32px}
+
+.coc-padding-small{padding:4px 8px!important}
+.coc-padding{padding:8px 16px!important}
+.coc-padding-large{padding:12px 24px!important}
+
+
+.coc-padding-t-b-16{padding-top:16px!important;padding-bottom:16px!important}
+.coc-padding-t-b-24{padding-top:24px!important;padding-bottom:24px!important}
+.coc-padding-t-b-32{padding-top:32px!important;padding-bottom:32px!important}
+.coc-padding-t-b-48{padding-top:48px!important;padding-bottom:48px!important}
+.coc-padding-t-b-64{padding-top:64px!important;padding-bottom:64px!important}
+
+
+.myHeader{  background-color: lightcoral;  height: 10%;width: 100%;overflow: auto;}
+.main_body{  background-color: lightgray;  height:80%; }
+.Body_left_column{  width: 18%;  float:left;  background-color: lightpink;  height:100%;}
+.body_center{  width: 64%;      float:left;  background-color:lightyellow;  height:100%;  overflow: auto;}
+.Body_right_column{  width: 18%;  float:left;   background-color: lime;  height:100%;}
+.my_footer{  background-color:magenta;   height: 10%;}
