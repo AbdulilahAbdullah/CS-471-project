@@ -8,4 +8,9 @@
     --black: #343a40;
     --white: #f8f9fa;
     --primary-font: Arial;
+
+    --border-radius: .3em;
+    --quick-transition: .3s ease-in-out;
+    --slow-transition: .5s ease-in-out;
+
 }
