@@ -1,10 +1,4 @@
-:root {
-  --red: red;
-  --yellow: yellow;
-  --black: black;
-  --white: white;
-  --h-family-font: Arial;
-}
+
 
 html,
 body {
@@ -63,32 +57,32 @@ body {
 
 h1 {
   font-size: 36px;
-  font-family: var(--h-family-font)
+  font-family: var(--primary-font)
 }
 
 h2 {
   font-size: 30px;
-  font-family: var(--h-family-font)
+  font-family: var(--primary-font)
 }
 
 h3 {
   font-size: 24px;
-  font-family: var(--h-family-font)
+  font-family: var(--primary-font)
 }
 
 h4 {
   font-size: 20px;
-  font-family: var(--h-family-font)
+  font-family: var(--primary-font)
 }
 
 h5 {
   font-size: 18px;
-  font-family: var(--h-family-font)
+  font-family: var(--primary-font)
 }
 
 h6 {
   font-size: 16px;
-  font-family: var(--h-family-font)
+  font-family: var(--primary-font)
 }
 
 .coc-round-small {

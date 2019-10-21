@@ -1,0 +1,48 @@
+/* this file for form's components, ex: button, text-input, checkbox */
+
+.btn {
+    display: inline-block;
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    margin: .5em;
+    font-size: 1em;
+    border-radius: .25rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 .2rem var(--light-primary);
+}
+
+.text-input {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    margin: .5em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.text-input:focus {
+    background-color: var(--white);
+    border-color: var(--secondary);
+    box-shadow: 0 0 5px var(--secondary);
+}
