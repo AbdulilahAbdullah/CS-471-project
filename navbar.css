@@ -1,0 +1,71 @@
+.nav-bar-menu {
+    display: flex;
+    align-items: center;
+    padding: .5em;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: var(--white);
+    color: var(--black);
+    transition: 2s opacity ease-in-out;
+    direction: rtl;
+    box-shadow: var(--bottom-shadow);
+    font-weight: bold;
+    position: fixed;
+    will-change: transform;
+    width: 100%;
+
+}
+
+.nav-bar-item,
+.drop-down-menu {
+    cursor: pointer;
+    padding: .3em;
+    transition: var(--quick-transition);
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.nav-bar-item:hover {
+    transition: var(--quick-transition);
+
+}
+
+.sub-menu {
+    position: absolute;
+    transition: var(--quick-transition);
+    background: linear-gradient(var(--blue-2), var(--blue-1));
+    border-radius: var(--border-radius);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: var(--secondary-shadow);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 14px;
+    margin-top: .6em;
+}
+
+.drop-down-menu:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transition: var(--quick-transition);
+}
+
+
+.sub-menu-item {
+    transition: var(--quick-transition);
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    align-items: center;
+    column-gap: 5px;
+    padding: .5em;
+
+}
+
+.sub-menu-item:hover {
+    background: var(--blue-3);
+    transition: var(--quick-transition);
+    padding: .5em;
+
+}
