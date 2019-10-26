@@ -5,25 +5,40 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
       direction: ltr;
 
+=======
+>>>>>>> addfile
 }
 
 .coc-background-red,
 .coc-hover-red:hover {
+<<<<<<< HEAD
   color: #fff !important;
+=======
+  color: var(--white) !important;
+>>>>>>> addfile
   background-color: var(--red) !important
 }
 
 .coc-background-yellow,
 .coc-hover-yellow:hover {
+<<<<<<< HEAD
   color: rgb(0, 0, 0) !important;
+=======
+  color: var(--black) !important;
+>>>>>>> addfile
   background-color: var(--yellow) !important
 }
 
 .coc-background-black,
 .coc-hover-black:hover {
+<<<<<<< HEAD
   color: #fff !important;
+=======
+  color: var(--white) !important;
+>>>>>>> addfile
   background-color: var(--black) !important
 }
 
@@ -147,14 +162,22 @@ h6 {
 
 
 .header {
+<<<<<<< HEAD
   background-color: lightcoral;
+=======
+  background-color: var(--header-background);
+>>>>>>> addfile
   height: 8%;
   width: 100%;
   overflow: auto;
 }
 
 .main-body {
+<<<<<<< HEAD
   background-color: lightgray;
+=======
+  background-color: var(--main-body-background);
+>>>>>>> addfile
   height: 84%;
   text-align: center;
 }
@@ -162,7 +185,11 @@ h6 {
 .body-left-column {
   width: 15%;
   float: left;
+<<<<<<< HEAD
   background-color: lightpink;
+=======
+  background-color: var(--body-left-column-background);
+>>>>>>> addfile
   height: 100%;
   overflow: auto;
 }
@@ -170,7 +197,11 @@ h6 {
 .body-center {
   width: 70%;
   float: left;
+<<<<<<< HEAD
   background-color: lightyellow;
+=======
+  background-color: var(--body-center-background);
+>>>>>>> addfile
   height: 100%;
   overflow: auto;
 }
@@ -178,26 +209,42 @@ h6 {
 .body-center-header{
   width: 100%;
   float: left;
+<<<<<<< HEAD
   background-color: lightyellow;
+=======
+  background-color: var(--body-center-header-background);
+>>>>>>> addfile
   height: 8%;
   overflow: auto;
 }
 .body-center-content{
   width: 100%;
   float: left;
+<<<<<<< HEAD
   background-color: lightyellow;
+=======
+  background-color: var(--body-center-content-background);
+>>>>>>> addfile
   height: 92%;
   overflow: auto;
 }
 .body-right-column {
   width: 15%;
   float: left;
+<<<<<<< HEAD
   background-color: lime;
+=======
+  background-color: var(--body-right-column-background);
+>>>>>>> addfile
   height: 100%;
   overflow: auto;
 }
 
 .footer {
+<<<<<<< HEAD
   background-color: magenta;
+=======
+  background-color: var(--footer-background);
+>>>>>>> addfile
   height:8%;
 }

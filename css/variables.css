@@ -13,6 +13,18 @@
     --primary-font: Arial;
     --yellow: #fbff07;
     --red: #ff0000;
+<<<<<<< HEAD
+=======
+    --header-background:lightcoral;
+    --main-body-background:lightgray;
+    --body-left-column-background: lightpink;
+    --body-center-background: lightyellow;
+    --body-center-header-background:lightyellow;
+    --body-center-content-background:lightyellow;
+    --body-right-column-background:lime;
+    --footer-background : magenta;
+    --webkit-scrollbar-thumb-color : rgba(0, 0, 0, 0.15);
+>>>>>>> addfile
     --primary-font: Arial;
     --border-radius: .3em;
     --quick-transition: .3s ease-in-out;
