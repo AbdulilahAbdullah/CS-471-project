@@ -1,0 +1,169 @@
+/* this file for form's components, ex: button, text-input, checkbox */
+
+.btn {
+    display: inline-block;
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    margin: .5em;
+    font-size: 1em;
+    border-radius: .25rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 .2rem var(--light-primary);
+}
+
+.text-input {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    margin: .5em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.text-input:focus {
+    background-color: var(--white);
+    border-color: var(--secondary);
+    box-shadow: 0 0 5px var(--secondary);
+}
+
+.container-box {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  /* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: var(--background-check-box);
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container-box:hover input ~ .checkmark {
+    background-color: var(--gray-check-box);
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container-box input:checked ~ .checkmark {
+    background-color: var(--checked-button);
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container-box input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container-box .checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--white);
+  }
+
+  .container-check-box {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container-check-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark-check-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: var(--background-check-box);
+  }
+  .container-check-box:hover input ~ .checkmark-check-box {
+    background-color: var(--gray-check-box);
+  }
+  
+/* When the checkbox is checked, add a blue background */
+.container-check-box input:checked ~ .checkmark-check-box {
+    background-color: var(--checked-button);
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark-check-box:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container-check-box input:checked ~ .checkmark-check-box:after {
+    display: block;
+  }
+  .container-check-box .checkmark-check-box:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--white);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
