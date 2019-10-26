@@ -148,40 +148,56 @@ h6 {
 
 .header {
   background-color: lightcoral;
-  height: 10%;
+  height: 8%;
   width: 100%;
   overflow: auto;
 }
 
 .main-body {
   background-color: lightgray;
-  height: 80%;
+  height: 84%;
   text-align: center;
 }
 
 .body-left-column {
-  width: 18%;
+  width: 15%;
   float: left;
   background-color: lightpink;
   height: 100%;
+  overflow: auto;
 }
 
 .body-center {
-  width: 64%;
+  width: 70%;
   float: left;
   background-color: lightyellow;
   height: 100%;
   overflow: auto;
 }
 
+.body-center-header{
+  width: 100%;
+  float: left;
+  background-color: lightyellow;
+  height: 8%;
+  overflow: auto;
+}
+.body-center-content{
+  width: 100%;
+  float: left;
+  background-color: lightyellow;
+  height: 92%;
+  overflow: auto;
+}
 .body-right-column {
-  width: 18%;
+  width: 15%;
   float: left;
   background-color: lime;
   height: 100%;
+  overflow: auto;
 }
 
 .footer {
   background-color: magenta;
-  height: 10%;
+  height:8%;
 }

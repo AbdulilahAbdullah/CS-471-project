@@ -1,7 +1,6 @@
 .nav-bar-menu {
     display: flex;
     align-items: center;
-    padding: .5em;
     text-align: center;
     font-size: 1.2em;
     background-color: var(--white);
@@ -12,7 +11,8 @@
     font-weight: bold;
     position: fixed;
     will-change: transform;
-    width: 100%;
+    width: 70%;
+    background: transparent;
 
 }
 
@@ -43,7 +43,7 @@
     visibility: hidden;
     opacity: 0;
     font-size: 14px;
-    margin-top: .6em;
+    margin-top: 1em;
 }
 
 .drop-down-menu:hover .sub-menu {

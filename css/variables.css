@@ -2,15 +2,21 @@
     --primary: #286090;
     --secondary: #4381b8;
     --light-primary: #4381b877;
+    --checked-button:#2196F3;
+    --gray-check-box:#ccc;
+    --background-check-box:#eee;
     --success: #28a745;
     --danger: #dc3545;
     --warning: #ffc107;
     --black: #343a40;
     --white: #f8f9fa;
     --primary-font: Arial;
-
+    --yellow: #fbff07;
+    --red: #ff0000;
+    --primary-font: Arial;
     --border-radius: .3em;
     --quick-transition: .3s ease-in-out;
     --slow-transition: .5s ease-in-out;
+
 
 }
